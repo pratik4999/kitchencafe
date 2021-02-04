@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Restaurant</title>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="booking.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+            <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <div class="cover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <p class="mb-0 phone pl-md-2">
+                            <a href="#" class="mr-2">
+                                <i class="fas fa-phone mr-1"></i>
+                                +91 91 0123 456
+                            </a>
+                            <a href="#"><i class="fas fa-paper-plane mr-1"></i>
+                                thekitchencafe@email.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end">
+                        <div class="social-icon mr-4">
+                            <p class="mb-0 d-flex">
+                                <a href="#" class="d-flex align-items-center 
+                                justify-content-center">
+                                    <i class="fab fa-facebook"></i></a>
+                                <a href="#" class="d-flex align-items-center
+                                justify-content-center">
+                                    <i class="fab fa-instagram"></i></a>
+                                <a href="#" class="d-flex align-items-center
+                                justify-content-center">
+                                    <i class="fab fa-twitter"></i></a>
+                            </p>
+                        </div>
+                        <div class="reg">
+                            <a href="logout.php">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg main-navbar bg-color:#f2f2f2; main-navbar-color" id="main-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="home.php">The Kitchen Cafe</a>
+            </div>
+        </nav>
+        <!--End of Nav-->
+    </section>
+    <!---Hero Section-->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="container mt-4">
+                <h3>Make A Reservation</h3>
+                <form action="" method="post">
+
+                    <div class="form-group">
+                        <div class="form-group col-7">
+                            <label for="inputEmail4">Name</label>
+                            <input type="text" class="form-control" name="name" id="inputname" placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group col-md-7">
+                            <label for="inputPassword4">E-mail</label>
+                            <input type="password" class="form-control" name="E-mail" id="inputmaill" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputPassword4">Contact No.</label>
+                        <input type="password" class="form-control" name="contact" id="inputcontact" placeholder="Enter your Contact">
+                    </div>
+                    <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="inputdate">Data</label>
+                        <input type="text" class="form-control" id="inputdate" placeholder="DD/MM/YYYY">
+                    </div>
+                    
+                        <div class="form-group col-md-2">
+                            <label for="inputCity">Time</label>
+                            <input type="text" class="form-control" id="input" placeholder="00:00 AM">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="inputperson">Number of People</label>
+                            <select id="inputperson" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                I accept Terms and Conditions.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="actions">
+                            <a href="cnf.html" class="btn-primary">BOOK NOW</a>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

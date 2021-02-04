@@ -1,0 +1,406 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(ppp.jpgz);
+  }
+  .cover{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    background: #e79702;
+  }
+  .phone{
+    z-index: 1;
+    font-weight: 200;
+  }
+  .phone i{
+    color: #000;
+  }
+  .phone a{
+    color:#000;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .reg{
+    width: 50%;
+    text-align:right;
+  }
+  .reg a{
+    color:#000;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .social-icon{
+    display: inline-block;
+    width: 50%;
+    
+  }
+  .social-icon p{
+    display:block;
+    width: 100%;
+  
+  }
+  .social-icon p a{
+    height: 30px;
+    margin-right: 10px;
+  }
+  .social-icon p a i{
+    font-size: 13px;
+    color: #000;
+  }
+  .social-icon p a:hover{
+    background: #f8aa02;
+    border-color: #f8aa02;
+  }
+  .social-icon p a:hover i{ 
+    color:#fff;
+  }
+  /*==========Navbar=============*/
+ 
+
+
+  .navbar-brand{
+    /* color:#D7E1EC; */
+    color: #f8aa02;
+
+    font-weight: bold;
+    font-size: 35px!important;
+  }
+  .navbar-brand:hover{
+    color:#f83b02;
+    font-weight: bold;
+    font-size: 35px!important;
+  }
+  .nav-link{
+    font-weight: bold;
+    color: #f8aa02;
+    font-size: 20px;
+  }
+  .btn-group{
+    color: #f8aa02;
+  }
+  .navbar-toggler i{
+    color: #f8aa02;
+  }
+  /*========End of Navbar===========*/
+  /*==========Hero Section===========*/
+  #hero{
+    display:table;
+    width: 100%;
+    height: 100vh;
+     background: url(ppp.jpg) top center;
+    background-size: cover;
+    
+  }
+  @media (min-width: 1024px){
+    #hero{
+        background-attachment: fixed;
+    }
+  }
+  
+  #hero .hero-logo{
+    margin: 20px;
+    max-width: 100%;
+  }
+
+ #hero .hero-container
+   {
+      display: table-cell;
+      text-align: left;
+      /* vertical-align: middle; */
+      background: rgba(0, 0, 0, 0.2);
+      margin: 0px;
+      padding: 0px;
+      font-weight: 700;
+  }
+  #hero h1{
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  @media (max-width: 768px){
+    #hero h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+  }
+  #hero h2{
+    color: #fff;
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+  @media (max-width: 768px){
+    #hero h2{
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    
+  }
+  #hero .actions a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+  }
+  #hero .btn-get-started{
+    background: #ebe703;
+    border: 2px solid #a85303;
+    color: #fff;
+  }
+  #hero .btn-get-started:hover{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+  }
+  #hero .btn-primary:hover {
+    color: #fff;
+    background-color: #ff5507;
+    border-color: #f55e07e3;
+}
+#hero .btn-primary {
+  color: #fff;
+  background-color: #f8aa02;
+  border-color: #f55e07e3;
+  margin-left: 14px;
+}
+
+
+
+  /*==========End of Hero Section===========*/
+  /* Shop Topbar */
+  .shop .shop-top {
+  clear: both;
+  background: #f6f7fb;
+  padding: 18px 20px 50px 20px;
+  }
+  .shop .shop-shorter {
+  float: left;
+  }
+  .shop .single-shorter {
+  display: inline-block;
+  margin-right: 10px;
+  }
+  .shop .single-shorter:last-child{
+  margin:0;
+  }
+  .shop .single-shorter label {
+  display: inline-block;
+  margin: 4px 5px 0 0;
+  font-weight:500;
+  }
+  .shop .single-shorter option
+  .shop .nice-select {
+  clear: initial;
+  display: inline-block;
+  margin: 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 0px;
+  height: auto;
+  width: auto;
+  border-radius: 0px;
+  }
+  .shop .nice-select::after{
+  border-color:#888;
+  }
+  .shop .nice-select .list {
+  border-radius:0px;
+  }
+  .shop .nice-select .option.selected {
+  font-weight: 500;
+  }
+  .shop .nice-select .list li{
+  color:#666;
+  border-radius:0px;
+  }
+  .shop .nice-select .list li:hover{
+  background:#F7941D;
+  color:#fff;
+  }
+  .shop .view-mode {
+  float: right;
+  }
+  .shop .view-mode li {
+  display: inline-block;
+  margin-right: 5px;
+  }
+  .shop .view-mode li:last-child{
+  margin:0;
+  }
+  .shop .view-mode li a {
+  width: 43px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid #77777775;
+  text-align: center;
+  display: block;
+  line-height: 32px;
+  color: #888;
+  border-radius: 0px;
+  }
+  .shop .view-mode li.active a,
+  .shop .view-mode li:hover a {
+  background: #F7941D;
+  color:#fff;
+  border-color:transparent;
+  }
+  /*========== Variety Section===========*/
+  .h2, h2 {
+    font-size: 2rem;
+    color: blue;
+  }
+  
+  .variety{
+     padding-bottom: 40px;
+     background: url(Pizza\ Food\ Hd\ Wallpaper.jpg) top center;
+  }
+  
+  .variety .card{
+    border: 0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+    position: relative;
+    background: transparent;
+  }
+  
+  
+  .variety .card-body{
+    z-index: 10;
+    background: #03ea55a6;
+    border-top:4px solid #d19929;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(241, 159,5, 0.5 );
+    margin-top: -60px;
+    transition: 0.3s;
+  }
+  .variety .card-title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .variety .card-title a{
+    color: rgb(223, 8, 8);
+    transition: 0.3s;
+  }
+  .variety .card-text{
+    
+    color: rgb(101 18 210);
+  }
+  .variety .read-more a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  .variety .read-more a:hover{
+    color: #854101;
+  }
+  
+  .variety .card:hover .card-body{
+    border-color: #fdc134;
+  }
+  .variety .card:hover  .card-body .card-title a{
+    color: #854101;
+  }
+  /*==========End of Variety Section===========*/
+  
+  
+  /*=======Booking==========*/
+  .make-reservation{
+  width: 100%;
+  background: rgba(231,151,2,0.5);
+  }
+  .make-reservation .form-group label{
+  font-weight: bold;
+  color: #000;
+  }
+  @media (max-width: 768px){
+  .make-reservation .form-group .select-wrap{
+    position: relative;
+  }
+  }
+  @media(max-width:768px){
+  .make-reservation .form-group .btn-book{
+    width: 100%;
+    display: block;
+  }
+  }
+  .btn-book{
+  display: inline-block;
+  vertical-align: middle;
+  color:#fff!important;
+  background: #000!important;
+  }
+  
+  
+  /* 
+  customer feedback */
+  
+  
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .feedback {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  footer{
+    background: rgb(15, 14, 14);
+    color: rgb(226, 27, 27);
+    padding: 9px 20px;
+  }
+  .center{
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*==========End of  Blog Section===========*/
+  
