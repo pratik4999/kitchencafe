@@ -1,2 +1,2 @@
 # kitchencafe
-projecet
+project on food ordering website using css html javascript sql php
